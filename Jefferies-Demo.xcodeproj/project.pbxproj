@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF7E166620A0C3EF002250EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7E166520A0C3EF002250EC /* AppDelegate.swift */; };
+		FF7E166820A0C3EF002250EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7E166720A0C3EF002250EC /* ViewController.swift */; };
+		FF7E166B20A0C3EF002250EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7E166920A0C3EF002250EC /* Main.storyboard */; };
+		FF7E166D20A0C3F2002250EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF7E166C20A0C3F2002250EC /* Assets.xcassets */; };
+		FF7E167020A0C3F2002250EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7E166E20A0C3F2002250EC /* LaunchScreen.storyboard */; };
+		FF7E167B20A0C3F2002250EC /* Jefferies_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7E167A20A0C3F2002250EC /* Jefferies_DemoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF7E167720A0C3F2002250EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF7E165A20A0C3EF002250EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF7E166120A0C3EF002250EC;
+			remoteInfo = "Jefferies-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF7E166220A0C3EF002250EC /* Jefferies-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jefferies-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7E166520A0C3EF002250EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF7E166720A0C3EF002250EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF7E166A20A0C3EF002250EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF7E166C20A0C3F2002250EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF7E166F20A0C3F2002250EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF7E167120A0C3F2002250EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF7E167620A0C3F2002250EC /* Jefferies-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jefferies-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7E167A20A0C3F2002250EC /* Jefferies_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jefferies_DemoTests.swift; sourceTree = "<group>"; };
+		FF7E167C20A0C3F2002250EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF7E165F20A0C3EF002250EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7E167320A0C3F2002250EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF7E165920A0C3EF002250EC = {
+			isa = PBXGroup;
+			children = (
+				FF7E166420A0C3EF002250EC /* Jefferies-Demo */,
+				FF7E167920A0C3F2002250EC /* Jefferies-DemoTests */,
+				FF7E166320A0C3EF002250EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF7E166320A0C3EF002250EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF7E166220A0C3EF002250EC /* Jefferies-Demo.app */,
+				FF7E167620A0C3F2002250EC /* Jefferies-DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF7E166420A0C3EF002250EC /* Jefferies-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				FF7E166520A0C3EF002250EC /* AppDelegate.swift */,
+				FF7E166720A0C3EF002250EC /* ViewController.swift */,
+				FF7E166920A0C3EF002250EC /* Main.storyboard */,
+				FF7E166C20A0C3F2002250EC /* Assets.xcassets */,
+				FF7E166E20A0C3F2002250EC /* LaunchScreen.storyboard */,
+				FF7E167120A0C3F2002250EC /* Info.plist */,
+			);
+			path = "Jefferies-Demo";
+			sourceTree = "<group>";
+		};
+		FF7E167920A0C3F2002250EC /* Jefferies-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF7E167A20A0C3F2002250EC /* Jefferies_DemoTests.swift */,
+				FF7E167C20A0C3F2002250EC /* Info.plist */,
+			);
+			path = "Jefferies-DemoTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF7E166120A0C3EF002250EC /* Jefferies-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF7E167F20A0C3F2002250EC /* Build configuration list for PBXNativeTarget "Jefferies-Demo" */;
+			buildPhases = (
+				FF7E165E20A0C3EF002250EC /* Sources */,
+				FF7E165F20A0C3EF002250EC /* Frameworks */,
+				FF7E166020A0C3EF002250EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jefferies-Demo";
+			productName = "Jefferies-Demo";
+			productReference = FF7E166220A0C3EF002250EC /* Jefferies-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF7E167520A0C3F2002250EC /* Jefferies-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF7E168220A0C3F2002250EC /* Build configuration list for PBXNativeTarget "Jefferies-DemoTests" */;
+			buildPhases = (
+				FF7E167220A0C3F2002250EC /* Sources */,
+				FF7E167320A0C3F2002250EC /* Frameworks */,
+				FF7E167420A0C3F2002250EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF7E167820A0C3F2002250EC /* PBXTargetDependency */,
+			);
+			name = "Jefferies-DemoTests";
+			productName = "Jefferies-DemoTests";
+			productReference = FF7E167620A0C3F2002250EC /* Jefferies-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF7E165A20A0C3EF002250EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Wiggleroom LLC";
+				TargetAttributes = {
+					FF7E166120A0C3EF002250EC = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					FF7E167520A0C3F2002250EC = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = FF7E166120A0C3EF002250EC;
+					};
+				};
+			};
+			buildConfigurationList = FF7E165D20A0C3EF002250EC /* Build configuration list for PBXProject "Jefferies-Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF7E165920A0C3EF002250EC;
+			productRefGroup = FF7E166320A0C3EF002250EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF7E166120A0C3EF002250EC /* Jefferies-Demo */,
+				FF7E167520A0C3F2002250EC /* Jefferies-DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF7E166020A0C3EF002250EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7E167020A0C3F2002250EC /* LaunchScreen.storyboard in Resources */,
+				FF7E166D20A0C3F2002250EC /* Assets.xcassets in Resources */,
+				FF7E166B20A0C3EF002250EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7E167420A0C3F2002250EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF7E165E20A0C3EF002250EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7E166820A0C3EF002250EC /* ViewController.swift in Sources */,
+				FF7E166620A0C3EF002250EC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7E167220A0C3F2002250EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7E167B20A0C3F2002250EC /* Jefferies_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF7E167820A0C3F2002250EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF7E166120A0C3EF002250EC /* Jefferies-Demo */;
+			targetProxy = FF7E167720A0C3F2002250EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF7E166920A0C3EF002250EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF7E166A20A0C3EF002250EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF7E166E20A0C3F2002250EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF7E166F20A0C3F2002250EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF7E167D20A0C3F2002250EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF7E167E20A0C3F2002250EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF7E168020A0C3F2002250EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J4VJ28P44Y;
+				INFOPLIST_FILE = "Jefferies-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wiggleroom.Jefferies-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF7E168120A0C3F2002250EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J4VJ28P44Y;
+				INFOPLIST_FILE = "Jefferies-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wiggleroom.Jefferies-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF7E168320A0C3F2002250EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J4VJ28P44Y;
+				INFOPLIST_FILE = "Jefferies-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wiggleroom.Jefferies-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jefferies-Demo.app/Jefferies-Demo";
+			};
+			name = Debug;
+		};
+		FF7E168420A0C3F2002250EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J4VJ28P44Y;
+				INFOPLIST_FILE = "Jefferies-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wiggleroom.Jefferies-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jefferies-Demo.app/Jefferies-Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF7E165D20A0C3EF002250EC /* Build configuration list for PBXProject "Jefferies-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7E167D20A0C3F2002250EC /* Debug */,
+				FF7E167E20A0C3F2002250EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF7E167F20A0C3F2002250EC /* Build configuration list for PBXNativeTarget "Jefferies-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7E168020A0C3F2002250EC /* Debug */,
+				FF7E168120A0C3F2002250EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF7E168220A0C3F2002250EC /* Build configuration list for PBXNativeTarget "Jefferies-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7E168320A0C3F2002250EC /* Debug */,
+				FF7E168420A0C3F2002250EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF7E165A20A0C3EF002250EC /* Project object */;
+}
